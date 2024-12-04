@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 105%;
+        }
+        table td, table th {
+            border: 1px solid #cecece;
+            padding: 5px;
+            text-align: center;
+        }
+        table caption {
+            caption-side: top;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        tfoot, table th {
+            background: #ddd;
+        }
+        tfoot td {
+            font-style: italic;
+        }
+        .responsive-table {
+            max-width: 100%;
+            overflow-x:  auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Vai Corinthians</p>
+<div class="responsive-table">
+    <table>
+        <caption>Campeonatos de 2025</caption>
+        <thead>
+            <tr>
+                <th>Vai Corinthians</th>
+                <th>Vai Corinthians</th>
+                <th>Vai Corinthians</th>
+                <th>Vai Corinthians</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2" rowspan="2">Campeonato Brasileiro 2025</td>
+                <td>Copa do Brasil 2025</td>
+                <td>Campeonato Paulista 2025</td>
+                
+            </tr>
+            <tr>
+                <td >Campeonato Brasileiro 2025</td>
+                <td>Copa do Brasil 2025</td>
+                
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Campeonato Brasileiro 2025</td>
+                <td>Copa do Brasil 2025</td>
+                <td>Campeonato Paulista 2025</td>
+                <td>Copa Libertadores 2025</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>
